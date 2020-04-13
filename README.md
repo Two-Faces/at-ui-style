@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npm install at-ui-style
+npm install @two-faces/at-ui-style
 ```
 
 ## Usage
@@ -24,12 +24,8 @@ import 'at-ui-style'
 
 ## Contribution
 
-Finding bugs, sending pull requests or improving our docs - any contribution is welcome and highly appreciated. To get started, head over to our [contribution guidelines](https://github.com/at-ui/at-ui-style/blob/master/CONTRIBUTING.md). Thanks!
+Finding bugs, sending pull requests or improving our docs - any contribution is welcome and highly appreciated. To get started, head over to our [contribution guidelines](https://github.com/two-faces/at-ui-style/blob/master/CONTRIBUTING.md). Thanks!
 
 ## License
 
 MIT
-
-
-[npm-version-image]: https://img.shields.io/npm/v/at-ui-style.svg?style=flat-square
-[npm-version-url]: https://www.npmjs.com/package/at-ui-style
