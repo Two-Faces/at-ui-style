@@ -18,18 +18,14 @@
   &__head {
     padding: 0 24px;
     height: $card-head-height;
-    line-height: $card-head-height;
     border-bottom: 1px solid $card-border-color;
+    align-items: center;
+    display: flex;
   }
   &__title {
-    display: inline-block;
-  }
-  &__extra {
-    float: right;
+    flex: 1;
   }
   &__body {
-    padding: 24px;
-
     &--loading {
       span {
         display: inline-block;

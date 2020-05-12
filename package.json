@@ -1,6 +1,6 @@
 {
-  "name": "at-ui-style",
-  "version": "1.5.1",
+  "name": "@two-faces/at-ui-style",
+  "version": "1.5.2",
   "description": "The StyleSheet for AT-UI",
   "scss": "src/index.scss",
   "main": "css/at.css",
@@ -15,6 +15,7 @@
     "prepublish": "npm run build",
     "start": "npm run build-scss -- --watch"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git@github.com:two-faces/at-ui-style.git"
