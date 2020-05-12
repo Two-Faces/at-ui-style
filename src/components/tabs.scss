@@ -8,10 +8,13 @@
 
   /* element */
   &__header {
+    display: flex;
+    align-items: center;
     font-size: 0;
     border-bottom: 1px solid $tabs-border-color;
   }
   &__nav {
+    flex: 1;
     position: relative;
     margin-bottom: -1px;
     height: $tabs-nav-height;
@@ -48,6 +51,7 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%)
+      cursor: pointer;
     }
   }
   &__prev {
@@ -62,8 +66,7 @@
     transition: all .3s;
   }
   &__extra {
-    float: right;
-    margin-top: 6px;
+    margin-right: 5px;
   }
   &__pane {
     display: inline-block;
