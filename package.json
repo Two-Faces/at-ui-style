@@ -1,6 +1,6 @@
 {
   "name": "@two-faces/at-ui-style",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "The StyleSheet for AT-UI",
   "scss": "src/index.scss",
   "main": "css/at.css",
